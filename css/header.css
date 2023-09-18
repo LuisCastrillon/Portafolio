@@ -1,0 +1,24 @@
+.header{
+    /* background-color: aquamarine; */
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .contMenu{
+        display: flex;
+        /* background-color: blanchedalmond; */
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+    .contMenu div{
+        font-size: large;
+    }
+
+
+    .title{
+        /* background-color: beige; */
+        flex-grow: 4;
+        padding-left: 5%;
+    }
