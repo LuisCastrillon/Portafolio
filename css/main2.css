@@ -1,17 +1,86 @@
 .main2{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /* flex-direction: column; */
 }
-.div1Main2, .div2Main2{
-    background-color: aquamarine;
-    width: 40%;
-    height: 80%;
+.div1Main2{
+    /* background-color: aquamarine; */
+    /* flex-grow: 1; */
+    /* margin: 50px; */
+    /* display: flex; */
     
+    width: 35%;
+    height: 70%;
+    
+    /* box-sizing: border-box; */
+    view-timeline-name: --image;
+    view-timeline-axis:block;
+    animation-timeline: --image;
+    animation-name: desplazar;
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
     
 }
-/* .div2Main2{
-    background-color: aquamarine;
-} */
+.div1Main2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.div2Main2{
+    /* background-color: rgb(0, 255, 170); */
+    display: flex;
+    width: 35%;
+    height: 70%;
+    justify-content: space-around;
+    flex-direction: column;
+
+    view-timeline-name: --image;
+    view-timeline-axis:block;
+    animation-timeline: --image;
+    animation-name: desplazar;
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
+}
+    .div2Main2 *{
+        margin: 0px;
+    }
+
+.cntTarjetas{
+    display: flex;
+    /* justify-content: center; */
+
+}
+.cntTarjetas h3{
+    margin-right: 10px;
+    background-color: #F2ECBE;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #65451F;
+}
+
+.btnView{
+    /* background-color: #F2ECBE; */
+    align-self:baseline;
+    border-radius: 3px;
+    padding: 8px 10px;
+    border: 1px solid #000;
+}
+    .btnView:hover{
+        cursor: pointer;
+    }
+
+@keyframes desplazar{
+    from{
+        opacity: .4;
+        scale:70%;
+    }
+    to{
+        opacity: 1;
+        scale:100%;
+    }
+
+}

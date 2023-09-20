@@ -3,6 +3,11 @@
 @import "main1.css";
 @import "main2.css";
 
+/* html {
+    scroll-behavior:slow;
+  } */
+
 body{
     font-family: 'Raleway', sans-serif;
+
 }
