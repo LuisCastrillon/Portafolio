@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "header.css";
-@import "main.css";
+@import "main1.css";
+@import "main2.css";
 
 body{
     font-family: 'Raleway', sans-serif;

@@ -1,0 +1,17 @@
+.main2{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1Main2, .div2Main2{
+    background-color: aquamarine;
+    width: 40%;
+    height: 80%;
+    
+    
+}
+/* .div2Main2{
+    background-color: aquamarine;
+} */

@@ -1,9 +1,11 @@
 .header{
     /* background-color: aquamarine; */
-    height: 12vh;
+    height: 12%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(.7px);
 }
 
     .contMenu{
