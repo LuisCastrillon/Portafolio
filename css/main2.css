@@ -66,12 +66,12 @@
     /* background-color: #F2ECBE; */
     align-self:baseline;
     border-radius: 3px;
-    padding: 8px 10px;
-    border: 1px solid #000;
+    /* padding: 8px 10px; */
+    /* border: 1px solid #000; */
 }
-    .btnView:hover{
+    /* .btnView:hover{
         cursor: pointer;
-    }
+    } */
 
 @keyframes desplazar{
     from{

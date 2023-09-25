@@ -3,25 +3,35 @@
     height: 12%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    backdrop-filter: blur(.7px);
+    /* backdrop-filter: blur(.7px); */
 }
-
     .contMenu{
         display: flex;
         /* background-color: blanchedalmond; */
         flex-grow: 1;
-        justify-content: space-evenly;
+        justify-content:space-evenly;
     }
     .contMenu div{
         font-size: large;
-        
+        transition: .4s;
     }
-
+        .contMenu div:hover{
+            border-bottom: 1px solid #fff;
+            cursor:pointer;
+        }
 
     .title{
         /* background-color: beige; */
         flex-grow: 4;
-        padding-left: 5%;
+        /* cursor:pointer; */
+        /* display: inline-block; */
+        /* background-color: aliceblue; */
+    }
+    .title h2{
+        cursor: pointer;
+        display: inline-block;
+        /* background-color: antiquewhite; */
+        margin: 5%;
     }
