@@ -1,6 +1,6 @@
 .header{
     /* background-color: aquamarine; */
-    height: 12%;
+    height: 12vh;
     width: 100%;
     display: flex;
     justify-content:space-between;
@@ -18,8 +18,9 @@
         transition: .4s;
     }
         .contMenu div:hover{
-            border-bottom: 1px solid #fff;
+            /* border-bottom: 1px solid #fff; */
             cursor:pointer;
+            transform: translateY(-5px);
         }
 
     .title{

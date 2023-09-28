@@ -1,0 +1,29 @@
+/* .about{
+    background-color: antiquewhite;
+} */
+
+.cntAbout{
+    min-height: 88vh;
+    display: flex;
+}
+.cntInfMe{
+padding: 8vh;
+}
+
+.cntMyValues{
+    padding: 8vh;
+}
+
+.cntImgMe{
+    width: 220px;
+    height: 220px;
+    
+}
+
+.cntImgMe img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
