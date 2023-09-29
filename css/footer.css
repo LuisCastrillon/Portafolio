@@ -42,8 +42,10 @@
         justify-content: space-between;
         /* background-color: antiquewhite; */
     }
-    .connectDiv h3 p{
+    .connectDiv h3 a{
         margin: 8px;
+        color: #000;
+        text-decoration: none;
     }
 
 .madeDiv{
@@ -55,9 +57,11 @@
 
 .linkFooter{
     transition:.3S;
+    color: #000;
+    text-decoration: none;
 }
 .linkFooter:hover{
     cursor:pointer;
-    color:#61677A;
-    scale: 1.2;
+    color:#8D8DAA;
+    scale: 1.1;
 }

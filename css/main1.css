@@ -1,7 +1,7 @@
 .main1{
     color: #fff;
     background-image: url("../img/fondo2.jpg");
-    /* background-position:center; */
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     /* bac */
@@ -27,6 +27,8 @@
 .container h1{
     font-size: 55px;
     margin: 0px;
+    background-color: antiquewhite;
+    display: flex;
 }
 
 .cntImg{

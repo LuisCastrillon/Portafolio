@@ -16,6 +16,8 @@
     .contMenu div{
         font-size: large;
         transition: .4s;
+        padding: 5px;
+        /* background-color: antiquewhite; */
     }
         .contMenu div:hover{
             /* border-bottom: 1px solid #fff; */
