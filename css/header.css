@@ -1,15 +1,12 @@
 .header{
-    /* background-color: aquamarine; */
     height: 12vh;
     width: 100%;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* backdrop-filter: blur(.7px); */
 }
     .contMenu{
         display: flex;
-        /* background-color: blanchedalmond; */
         flex-grow: 1;
         justify-content:space-evenly;
     }
@@ -17,24 +14,17 @@
         font-size: large;
         transition: .4s;
         padding: 5px;
-        /* background-color: antiquewhite; */
     }
         .contMenu div:hover{
-            /* border-bottom: 1px solid #fff; */
             cursor:pointer;
             transform: translateY(-5px);
         }
 
     .title{
-        /* background-color: beige; */
         flex-grow: 4;
-        /* cursor:pointer; */
-        /* display: inline-block; */
-        /* background-color: aliceblue; */
     }
     .title h2{
         cursor: pointer;
         display: inline-block;
-        /* background-color: antiquewhite; */
         margin: 5%;
     }

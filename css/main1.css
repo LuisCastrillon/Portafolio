@@ -4,10 +4,7 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* bac */
-    /* background-olor: rgb(250, 235, 215); */
-    /* background-color: #E5CFF7; */
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,7 +13,6 @@
 }
 
 .container{
-    /* background-color: beige; */
     width: 50%;
     height: 40%;
     display: flex;
@@ -27,16 +23,13 @@
 .container h1{
     font-size: 55px;
     margin: 0px;
-    background-color: antiquewhite;
     display: flex;
 }
 
 .cntImg{
     width: 50px;
     height: 50px;
-    /* position:absolute; */
     bottom: 0px;
-    /* background-color: aqua; */
     transition: .3s;
     background-color: #fff;
     border-radius: 50%;
@@ -48,10 +41,10 @@
 .cntImg:hover{
     transform:translateY(-8px);
     cursor:pointer;
-    
 }
 
 .cntImg img{
     width: 80%;
     object-fit: cover;
 }
+

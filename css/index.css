@@ -5,11 +5,7 @@
 @import "footer.css";
 @import "aboutHeader.css";
 
-/* html {
-    scroll-behavior:slow;
-  } */
-
 body{
     font-family: 'Raleway', sans-serif;
-
+    /* box-sizing: border-box; */
 }
